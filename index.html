@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Finder Dashboard</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div>
+            <h1>JobFinder</h1>
+        </div>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="find-jobs.html">Find Jobs</a>
+            <a href="saved-jobs.html">Saved Jobs</a>
+            <a href="applications.html">Applications</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+
+        <div>
+            <button>Notifications</button>
+            <button>Profile</button>
+        </div>
+    </header>
+
+
+    <!-- Main Dashboard -->
+    <main>
+
+        <!-- Welcome Section -->
+        <section>
+            <h2>Good Morning, Rahul 👋</h2>
+            <p>Find your dream job today.</p>
+        </section>
+
+
+        <!-- Job Search -->
+        <section>
+            <h2>Find Your Next Opportunity</h2>
+
+            <form>
+
+                <label for="job">Job Title or Skills</label>
+                <input
+                    type="text"
+                    id="job"
+                    name="job"
+                    placeholder="e.g. Frontend Developer">
+
+                <label for="location">Location</label>
+                <input
+                    type="text"
+                    id="location"
+                    name="location"
+                    placeholder="e.g. Mumbai">
+
+                <label for="job-type">Job Type</label>
+
+                <select id="job-type" name="job-type">
+                    <option value="">All Job Types</option>
+                    <option value="full-time">Full Time</option>
+                    <option value="part-time">Part Time</option>
+                    <option value="internship">Internship</option>
+                    <option value="remote">Remote</option>
+                </select>
+
+                <button type="submit">Search Jobs</button>
+
+            </form>
+        </section>
+
+
+        <!-- Dashboard Content -->
+        <section>
+
+            <!-- Recommended Jobs -->
+            <div>
+
+                <div>
+                    <h2>Recommended Jobs</h2>
+                    <a href="find-jobs.html">View All</a>
+                </div>
+
+
+                <!-- Job Card 1 -->
+                <article>
+
+                    <div>
+                        <h3>Frontend Developer</h3>
+                        <p>Google</p>
+                    </div>
+
+                    <button>♡</button>
+
+                    <p>📍 Bengaluru</p>
+                    <p>💼 Full Time</p>
+                    <p>🕒 2 days ago</p>
+
+                    <div>
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                    </div>
+
+                    <p><strong>₹8L - ₹14L / year</strong></p>
+
+                    <button>Apply Now</button>
+
+                </article>
+
+
+                <!-- Job Card 2 -->
+                <article>
+
+                    <div>
+                        <h3>Software Engineer</h3>
+                        <p>Microsoft</p>
+                    </div>
+
+                    <button>♡</button>
+
+                    <p>📍 Hyderabad</p>
+                    <p>💼 Full Time</p>
+                    <p>🕒 3 days ago</p>
+
+                    <div>
+                        <span>Java</span>
+                        <span>DSA</span>
+                        <span>SQL</span>
+                    </div>
+
+                    <p><strong>₹10L - ₹18L / year</strong></p>
+
+                    <button>Apply Now</button>
+
+                </article>
+
+
+                <!-- Job Card 3 -->
+                <article>
+
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <p>Amazon</p>
+                    </div>
+
+                    <button>♡</button>
+
+                    <p>📍 Mumbai</p>
+                    <p>💼 Full Time</p>
+                    <p>🕒 5 days ago</p>
+
+                    <div>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <p><strong>₹7L - ₹13L / year</strong></p>
+
+                    <button>Apply Now</button>
+
+                </article>
+
+            </div>
+
+
+            <!-- Right Sidebar -->
+            <aside>
+
+                <!-- Profile -->
+                <section>
+
+                    <h2>My Profile</h2>
+
+                    <img
+                        src="main.jpg.jpg"
+                        alt="Profile Photo"
+                        width="100">
+
+                    <h3>Rahul Jha</h3>
+
+                    <p>Frontend Developer</p>
+
+                    <p>Profile Completion: 75%</p>
+
+                    <progress value="75" max="100"></progress>
+
+                    <br><br>
+
+                    <button>Edit Profile</button>
+
+                </section>
+
+
+                <!-- Saved Jobs -->
+                <section>
+
+                    <h2>Saved Jobs</h2>
+
+                    <article>
+                        <h3>React Developer</h3>
+                        <p>Meta</p>
+                        <p>📍 Remote</p>
+                    </article>
+
+                    <article>
+                        <h3>Backend Developer</h3>
+                        <p>Infosys</p>
+                        <p>📍 Pune</p>
+                    </article>
+
+                    <article>
+                        <h3>Software Engineer</h3>
+                        <p>TCS</p>
+                        <p>📍 Mumbai</p>
+                    </article>
+
+                </section>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 JobFinder. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
