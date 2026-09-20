@@ -69,9 +69,9 @@ This project was created to practice frontend development concepts such as:
 
 ## 👨‍💻 Author
 
-**Rahul Jha**
+**Snehal Jagtap**
 
-Frontend Developer | Computer Engineering Student
+Frontend Developer | Artificial intelligence and Data Science Student
 
 ---
 
